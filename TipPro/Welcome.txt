@@ -1,3 +1,3 @@
 Hello,
 
-Welcome to the tipCalculator app!
+Welcome to the tipCalculator app! This is the first app I made while being at Make School's Summer Academy iOS Apps Track!
