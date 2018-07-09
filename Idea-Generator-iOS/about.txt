@@ -1,0 +1,1 @@
+This is a simple idea generator app. Similar to the Magic 8 Ball.
