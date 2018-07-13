@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 import CoreData
 
 @UIApplicationMain
@@ -16,7 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        FirebaseApp.configure()
+    
+        configureInitialRootViewController(for: window)
+        
+        
         return true
     }
 
@@ -88,6 +94,61 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
+    
+    
 }
+
+/*
+ Extension that checks if a user already exists.
+ If a user already exists, it will take you to the Main Page.
+ If there are users, it will take you to the Login Page
+ */
+extension AppDelegate {
+    
+    // Function that configures the initialRootViewController
+    func configureInitialRootViewController(for window: UIWindow?) {
+        let defaults = UserDefaults.standard
+        let initialViewController: UIViewController
+        
+        // If user already exists, skip to main page, else go to the login page
+        if let _ = Auth.auth().currentUser,
+           let userData = defaults.object(forKey: Constants.UserDefaults.currentUser) as? Data,
+           let user = try? JSONDecoder().decode(User.self, from: userData) {
+                User.setCurrent(user)
+                initialViewController = UIStoryboard.initialViewController(for: .main)
+        } else {
+            initialViewController = UIStoryboard.initialViewController(for: .login)
+        }
+        
+        window?.rootViewController = initialViewController
+        window?.makeKeyAndVisible()
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
