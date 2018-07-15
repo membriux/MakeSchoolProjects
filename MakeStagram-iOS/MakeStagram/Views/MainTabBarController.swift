@@ -17,13 +17,11 @@ class MainTabBarController: UITabBarController {
         super.viewDidLoad()
         
         photoHelper.completionHandler = { image in
-            print("handle image")
+            PostService.create(for: image)
         }
         
         // Set the MainTabBarController as the delegate of its tab bar
         delegate = self
-        
-        // Set the tab bar's unselectedItemTintColor from the default to black
         tabBar.unselectedItemTintColor = .black
     }
     

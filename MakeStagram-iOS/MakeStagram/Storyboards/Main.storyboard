@@ -26,7 +26,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JSA-TF-Pbo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-479" y="884"/>
+            <point key="canvasLocation" x="-479" y="898"/>
         </scene>
         <!--Find Friends View Controller-->
         <scene sceneID="mcv-fC-kA5">
@@ -44,25 +44,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PdI-mS-VPI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="196" y="830"/>
-        </scene>
-        <!--Photos-->
-        <scene sceneID="rvx-Yp-9w7">
-            <objects>
-                <viewController title="Home" id="w3q-6F-wLS" userLabel="Photos" customClass="HomeViewController" customModule="MakeStagram" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="qN7-kV-0xF">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="h3V-ph-Ulp"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="" image="tab_home_black" selectedImage="tab_home_black" id="7cA-r7-7NZ">
-                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
-                    </tabBarItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="j1W-Ku-Uc8" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1186" y="830"/>
+            <point key="canvasLocation" x="196" y="844"/>
         </scene>
         <!--Main Tab Bar Controller-->
         <scene sceneID="mXX-87-KBz">
@@ -74,7 +56,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="w3q-6F-wLS" kind="relationship" relationship="viewControllers" id="RnM-GE-61v"/>
+                        <segue destination="b7n-pu-iFH" kind="relationship" relationship="viewControllers" id="RnM-GE-61v"/>
                         <segue destination="z81-2r-OXp" kind="relationship" relationship="viewControllers" id="ZAq-tc-okL"/>
                         <segue destination="FUJ-sT-jtY" kind="relationship" relationship="viewControllers" id="x9L-Gz-RhJ"/>
                     </connections>
@@ -83,10 +65,19 @@
             </objects>
             <point key="canvasLocation" x="-479" y="97"/>
         </scene>
+        <!--Home-->
+        <scene sceneID="rYL-rF-PUI">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="b7n-pu-iFH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Y9w-2f-wO0"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kCI-0W-6aZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1102" y="556"/>
+        </scene>
     </scenes>
     <resources>
         <image name="tab_find_friends_black" width="25" height="25"/>
-        <image name="tab_home_black" width="25" height="25"/>
         <image name="tab_plus_black" width="25" height="25"/>
     </resources>
 </document>

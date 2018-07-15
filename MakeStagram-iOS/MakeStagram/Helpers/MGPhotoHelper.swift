@@ -54,7 +54,7 @@ class MGPhotoHelper: NSObject {
         imagePickerController.sourceType = SourceType
         imagePickerController.delegate = self
         
-        // Present the view controller
+        // Present the view controller of the camera/photo library
         viewController.present(imagePickerController, animated: true)
     }
     
@@ -62,7 +62,7 @@ class MGPhotoHelper: NSObject {
 
 extension MGPhotoHelper: UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
-    //
+    // Calls image picker controller and dismisses it after an image is selected
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String: Any]) {
         if let selectedImage = info[UIImagePickerControllerOriginalImage] as? UIImage {
             completionHandler?(selectedImage)
@@ -72,7 +72,7 @@ extension MGPhotoHelper: UINavigationControllerDelegate, UIImagePickerController
         
     }
     
-    // Dismiss the image picker
+    // Dismiss the image picker when clicked on cancel
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         picker.dismiss(animated: true)
     }

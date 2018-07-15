@@ -68,21 +68,6 @@ extension LoginViewController: FUIAuthDelegate {
     
 }
 
-/*
- 
- import FirebaseDataBase
- 
- // Check if there is a user
- if let user = Auth.auth().currentUser {
- 
-    // If user exists, then get reference of the user
-    let rootRef = Database.database().reference()
- 
-    Building a DatabaseReference
-    let userTef = rootRef.child("users").child(user.id)
- 
- */
-
 
 
 

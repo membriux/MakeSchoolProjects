@@ -13,6 +13,7 @@
 		BB04818D20F7C75C003683A7 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB04818C20F7C75C003683A7 /* MainTabBarController.swift */; };
 		BB04818F20F7CE41003683A7 /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB04818E20F7CE41003683A7 /* MGPhotoHelper.swift */; };
 		BB04819120F7F102003683A7 /* AlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB04819020F7F102003683A7 /* AlertMessage.swift */; };
+		BB486C5220FC0D170012F54E /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB486C5120FC0D170012F54E /* PostImageCell.swift */; };
 		BB5AE5B320F5255C00FCD486 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB5AE5B220F524B200FCD486 /* GoogleService-Info.plist */; };
 		BB5AE5B520F5613E00FCD486 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5AE5B420F5613E00FCD486 /* User.swift */; };
 		BB5AE5B720F56E7100FCD486 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5AE5B620F56E7100FCD486 /* CreateUsernameViewController.swift */; };
@@ -22,6 +23,12 @@
 		BBA6671420F6B9AF001D6822 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA6671320F6B9AF001D6822 /* Constants.swift */; };
 		BBA6671720F6BB07001D6822 /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA6671620F6BB07001D6822 /* Storyboard+Utility.swift */; };
 		BBA6671920F6C1B4001D6822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA6671820F6C1B4001D6822 /* Main.storyboard */; };
+		BBCEA2AB20FABDBB002FF72A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCEA2AA20FABDBB002FF72A /* Post.swift */; };
+		BBCEA2AD20FAC509002FF72A /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCEA2AC20FAC509002FF72A /* UIImage+Size.swift */; };
+		BBCEA2AF20FAC6E7002FF72A /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCEA2AE20FAC6E7002FF72A /* StorageReference+Post.swift */; };
+		BBCEA2B720FAD8C0002FF72A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCEA2B620FAD8C0002FF72A /* Home.storyboard */; };
+		BBEEB80A20F9A645001090D8 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEEB80920F9A645001090D8 /* StorageService.swift */; };
+		BBEEB80C20F9A87C001090D8 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEEB80B20F9A87C001090D8 /* PostService.swift */; };
 		BBFB233920F4000E00E33C0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFB233820F4000E00E33C0A /* AppDelegate.swift */; };
 		BBFB234120F4000E00E33C0A /* MakeStagram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BBFB233F20F4000E00E33C0A /* MakeStagram.xcdatamodeld */; };
 		BBFB234320F4000F00E33C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBFB234220F4000F00E33C0A /* Assets.xcassets */; };
@@ -37,6 +44,7 @@
 		BB04818C20F7C75C003683A7 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		BB04818E20F7CE41003683A7 /* MGPhotoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGPhotoHelper.swift; sourceTree = "<group>"; };
 		BB04819020F7F102003683A7 /* AlertMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMessage.swift; sourceTree = "<group>"; };
+		BB486C5120FC0D170012F54E /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
 		BB5AE5B220F524B200FCD486 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BB5AE5B420F5613E00FCD486 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BB5AE5B620F56E7100FCD486 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +54,12 @@
 		BBA6671320F6B9AF001D6822 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BBA6671620F6BB07001D6822 /* Storyboard+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
 		BBA6671820F6C1B4001D6822 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BBCEA2AA20FABDBB002FF72A /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		BBCEA2AC20FAC509002FF72A /* UIImage+Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Size.swift"; sourceTree = "<group>"; };
+		BBCEA2AE20FAC6E7002FF72A /* StorageReference+Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
+		BBCEA2B620FAD8C0002FF72A /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		BBEEB80920F9A645001090D8 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		BBEEB80B20F9A87C001090D8 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		BBFB233520F4000E00E33C0A /* MakeStagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeStagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBFB233820F4000E00E33C0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBFB234020F4000E00E33C0A /* MakeStagram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MakeStagram.xcdatamodel; sourceTree = "<group>"; };
@@ -102,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				BB5AE5B420F5613E00FCD486 /* User.swift */,
+				BBCEA2AA20FABDBB002FF72A /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -110,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				BBA6671120F66A3C001D6822 /* UserService.swift */,
+				BBEEB80920F9A645001090D8 /* StorageService.swift */,
+				BBEEB80B20F9A87C001090D8 /* PostService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -118,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				BBA6671820F6C1B4001D6822 /* Main.storyboard */,
+				BBCEA2B620FAD8C0002FF72A /* Home.storyboard */,
 				BBFB234420F4000F00E33C0A /* LaunchScreen.storyboard */,
 				BBA1BBB320F42D920087340A /* Login.storyboard */,
 			);
@@ -142,6 +160,7 @@
 				BB04818820F7B5FF003683A7 /* HomeViewController.swift */,
 				BB04818A20F7B618003683A7 /* FindFriendsViewController.swift */,
 				BB04818C20F7C75C003683A7 /* MainTabBarController.swift */,
+				BB486C5120FC0D170012F54E /* PostImageCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,6 +170,8 @@
 			children = (
 				BBA6671620F6BB07001D6822 /* Storyboard+Utility.swift */,
 				BB04819020F7F102003683A7 /* AlertMessage.swift */,
+				BBCEA2AC20FAC509002FF72A /* UIImage+Size.swift */,
+				BBCEA2AE20FAC6E7002FF72A /* StorageReference+Post.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -203,7 +224,7 @@
 				BBFB233220F4000E00E33C0A /* Frameworks */,
 				BBFB233320F4000E00E33C0A /* Resources */,
 				35C355909CBAC09E2134F757 /* [CP] Embed Pods Frameworks */,
-				DADD94BD4F23170348239C4A /* [CP] Copy Pods Resources */,
+				7EDE496093D509C81C371BF5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,6 +276,7 @@
 				BBA1BBB420F42D920087340A /* Login.storyboard in Resources */,
 				BBA6671920F6C1B4001D6822 /* Main.storyboard in Resources */,
 				BBFB234620F4000F00E33C0A /* LaunchScreen.storyboard in Resources */,
+				BBCEA2B720FAD8C0002FF72A /* Home.storyboard in Resources */,
 				BBFB234320F4000F00E33C0A /* Assets.xcassets in Resources */,
 				BB5AE5B320F5255C00FCD486 /* GoogleService-Info.plist in Resources */,
 			);
@@ -272,6 +294,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-MakeStagram/Pods-MakeStagram-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -279,6 +302,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -305,7 +329,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DADD94BD4F23170348239C4A /* [CP] Copy Pods Resources */ = {
+		7EDE496093D509C81C371BF5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -337,12 +361,18 @@
 				BB04818F20F7CE41003683A7 /* MGPhotoHelper.swift in Sources */,
 				BBFB233920F4000E00E33C0A /* AppDelegate.swift in Sources */,
 				BB5AE5B520F5613E00FCD486 /* User.swift in Sources */,
+				BBCEA2AF20FAC6E7002FF72A /* StorageReference+Post.swift in Sources */,
+				BB486C5220FC0D170012F54E /* PostImageCell.swift in Sources */,
 				BB04818B20F7B618003683A7 /* FindFriendsViewController.swift in Sources */,
+				BBCEA2AD20FAC509002FF72A /* UIImage+Size.swift in Sources */,
 				BBA6671720F6BB07001D6822 /* Storyboard+Utility.swift in Sources */,
 				BBFB234120F4000E00E33C0A /* MakeStagram.xcdatamodeld in Sources */,
+				BBEEB80C20F9A87C001090D8 /* PostService.swift in Sources */,
+				BBCEA2AB20FABDBB002FF72A /* Post.swift in Sources */,
 				BB04818920F7B5FF003683A7 /* HomeViewController.swift in Sources */,
 				BBA6671420F6B9AF001D6822 /* Constants.swift in Sources */,
 				BB04819120F7F102003683A7 /* AlertMessage.swift in Sources */,
+				BBEEB80A20F9A645001090D8 /* StorageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

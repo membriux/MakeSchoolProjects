@@ -13,6 +13,23 @@ import FirebaseDatabase
 
 struct UserService {
 
+    // Fetch and return all of the posts from Firebase from a given user.
+    static func posts(for user: User, completion: @escaping ([Post]) -> Void) {
+        let ref = Database.database().reference().child("posts").child(user.uid)
+        
+        ref.observeSingleEvent(of: .value, with: { (snapshot) in
+            guard let snapshot = snapshot.children.allObjects as? [DataSnapshot] else {
+                return completion([])
+            }
+            
+            let posts = snapshot.reversed().compactMap(Post.init)
+            completion(posts)
+            
+        })
+        
+    }
+    
+    
     static func show(forUID uid: String, completion: @escaping (User?) -> Void) {
         
         // Construct a relative path to the reference of the user's information in our database
