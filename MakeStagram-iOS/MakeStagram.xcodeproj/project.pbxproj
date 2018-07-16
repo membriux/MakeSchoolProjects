@@ -17,6 +17,8 @@
 		BB5AE5B320F5255C00FCD486 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB5AE5B220F524B200FCD486 /* GoogleService-Info.plist */; };
 		BB5AE5B520F5613E00FCD486 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5AE5B420F5613E00FCD486 /* User.swift */; };
 		BB5AE5B720F56E7100FCD486 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5AE5B620F56E7100FCD486 /* CreateUsernameViewController.swift */; };
+		BB8655C820FC63D300C55959 /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8655C720FC63D300C55959 /* PostHeaderCell.swift */; };
+		BB8655CA20FC68BA00C55959 /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8655C920FC68BA00C55959 /* PostActionCell.swift */; };
 		BBA1BBB420F42D920087340A /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA1BBB320F42D920087340A /* Login.storyboard */; };
 		BBA1BBB620F42EBA0087340A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA1BBB520F42EBA0087340A /* LoginViewController.swift */; };
 		BBA6671220F66A3C001D6822 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA6671120F66A3C001D6822 /* UserService.swift */; };
@@ -48,6 +50,8 @@
 		BB5AE5B220F524B200FCD486 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BB5AE5B420F5613E00FCD486 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BB5AE5B620F56E7100FCD486 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
+		BB8655C720FC63D300C55959 /* PostHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
+		BB8655C920FC68BA00C55959 /* PostActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostActionCell.swift; sourceTree = "<group>"; };
 		BBA1BBB320F42D920087340A /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		BBA1BBB520F42EBA0087340A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BBA6671120F66A3C001D6822 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
@@ -161,6 +165,8 @@
 				BB04818A20F7B618003683A7 /* FindFriendsViewController.swift */,
 				BB04818C20F7C75C003683A7 /* MainTabBarController.swift */,
 				BB486C5120FC0D170012F54E /* PostImageCell.swift */,
+				BB8655C720FC63D300C55959 /* PostHeaderCell.swift */,
+				BB8655C920FC68BA00C55959 /* PostActionCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -360,6 +366,7 @@
 				BB5AE5B720F56E7100FCD486 /* CreateUsernameViewController.swift in Sources */,
 				BB04818F20F7CE41003683A7 /* MGPhotoHelper.swift in Sources */,
 				BBFB233920F4000E00E33C0A /* AppDelegate.swift in Sources */,
+				BB8655CA20FC68BA00C55959 /* PostActionCell.swift in Sources */,
 				BB5AE5B520F5613E00FCD486 /* User.swift in Sources */,
 				BBCEA2AF20FAC6E7002FF72A /* StorageReference+Post.swift in Sources */,
 				BB486C5220FC0D170012F54E /* PostImageCell.swift in Sources */,
@@ -368,6 +375,7 @@
 				BBA6671720F6BB07001D6822 /* Storyboard+Utility.swift in Sources */,
 				BBFB234120F4000E00E33C0A /* MakeStagram.xcdatamodeld in Sources */,
 				BBEEB80C20F9A87C001090D8 /* PostService.swift in Sources */,
+				BB8655C820FC63D300C55959 /* PostHeaderCell.swift in Sources */,
 				BBCEA2AB20FABDBB002FF72A /* Post.swift in Sources */,
 				BB04818920F7B5FF003683A7 /* HomeViewController.swift in Sources */,
 				BBA6671420F6B9AF001D6822 /* Constants.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  PostImageCell.swift
+//  PostHeaderCell.swift
 //  MakeStagram
 //
 //  Created by Memo on 7/15/18.
@@ -8,17 +8,24 @@
 
 import UIKit
 
-
-class PostImageCell: UITableViewCell {
+class PostHeaderCell: UITableViewCell {
     
-    // Subviews
-    @IBOutlet weak var postImageView: UIImageView!
+    @IBOutlet weak var usernameLabel: UILabel!
     
     
     override func awakeFromNib() {
         super.awakeFromNib()
     }
     
+
+    @IBAction func optionsButtonTapped(_ sender: Any) {
+        print("options button tapped")
+    }
+    
     
     
 }
+
+
+
+
