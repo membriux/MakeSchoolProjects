@@ -9,14 +9,12 @@
 /* Begin PBXBuildFile section */
 		BB0CAD2A2114F7E60075D04B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CAD1F2114F7E50075D04B /* AppDelegate.swift */; };
 		BB0CAD2B2114F7E60075D04B /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CAD202114F7E50075D04B /* ColorTheme.swift */; };
-		BB0CAD2C2114F7E60075D04B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0CAD212114F7E60075D04B /* Assets.xcassets */; };
-		BB0CAD2D2114F7E60075D04B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0CAD232114F7E60075D04B /* LaunchScreen.storyboard */; };
 		BB0CAD2E2114F7E60075D04B /* BillAmountTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CAD252114F7E60075D04B /* BillAmountTextField.swift */; };
 		BB0CAD2F2114F7E60075D04B /* UIColor+TC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CAD262114F7E60075D04B /* UIColor+TC.swift */; };
-		BB0CAD302114F7E60075D04B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB0CAD272114F7E60075D04B /* Info.plist */; };
 		BB0CAD312114F7E60075D04B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CAD282114F7E60075D04B /* ViewController.swift */; };
-		BB0CAD322114F7E60075D04B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0CAD292114F7E60075D04B /* Main.storyboard */; };
-		BB0CAD342114F82E0075D04B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0CAD332114F82E0075D04B /* Default-568h@2x.png */; };
+		BB96AE642176C47B0015FBF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0CAD292114F7E60075D04B /* Main.storyboard */; };
+		BB96AE652176C47E0015FBF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0CAD232114F7E60075D04B /* LaunchScreen.storyboard */; };
+		BBDD51322176CE9F00B5810E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0CAD212114F7E60075D04B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -137,11 +135,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB0CAD322114F7E60075D04B /* Main.storyboard in Resources */,
-				BB0CAD302114F7E60075D04B /* Info.plist in Resources */,
-				BB0CAD2C2114F7E60075D04B /* Assets.xcassets in Resources */,
-				BB0CAD342114F82E0075D04B /* Default-568h@2x.png in Resources */,
-				BB0CAD2D2114F7E60075D04B /* LaunchScreen.storyboard in Resources */,
+				BB96AE642176C47B0015FBF9 /* Main.storyboard in Resources */,
+				BBDD51322176CE9F00B5810E /* Assets.xcassets in Resources */,
+				BB96AE652176C47E0015FBF9 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
